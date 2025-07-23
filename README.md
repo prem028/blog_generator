@@ -31,56 +31,32 @@ Generate professional and customized blog posts effortlessly using the power of 
 ```bash
 git clone <your-repository-url>
 cd ai-blog-generator
-
-2. Create Virtual Environment (Recommended)
-bash
-Copy
-Edit
+```
+### 2. Create Virtual Environment (Recommended)
+```bash
 python -m venv venv
 # Activate:
 # Windows
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
+```
 
-3. Install Dependencies
-bash
-Copy
-Edit
+### 3. Install Dependencies
 pip install -r requirements.txt
-If you don’t have requirements.txt, create one with:
 
-txt
-Copy
-Edit
-streamlit
-langchain
-ctransformers
-deep_translator
-4. Download LLaMA 2 Model
+### 4. Download LLaMA 2 Model
 Download llama-2-7b-chat.ggmlv3.q8_0.bin from a trusted source such as Hugging Face:
 
-🔗 Example Download - Hugging Face
+🔗 [Example Download - Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
 
-Place the file in a models folder:
-
-python
-Copy
-Edit
-ai-blog-generator/
-├── models/
-│   └── llama-2-7b-chat.ggmlv3.q8_0.bin
-├── app.py
-├── requirements.txt
-└── README.md
-🏃 How to Use
+### 🏃 How to Use
 Launch the app:
-
-bash
-Copy
-Edit
+```
 streamlit run app.py
-In the App:
+```
+
+#### In the App:
 Enter Blog Topic – Type your subject
 
 Select Target Audience – e.g., Students, Professionals
@@ -94,20 +70,3 @@ Select Language – Choose the output language
 Click “Generate Blog” – The blog will be generated
 
 Download Blog – Save it as a .txt file
-
-🤝 Contributing
-Fork the repository
-
-Create your branch: git checkout -b feature/your-feature
-
-Make your changes
-
-Commit: git commit -m "Add your message"
-
-Push: git push origin feature/your-feature
-
-Open a Pull Request
-
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-```
