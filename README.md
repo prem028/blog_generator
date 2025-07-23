@@ -50,7 +50,9 @@ Download llama-2-7b-chat.ggmlv3.q8_0.bin from a trusted source such as Hugging F
 
 🔗 [Example Download - Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
 
-### 🏃 How to Use
+---
+
+## 🏃 How to Use
 Launch the app:
 ```
 streamlit run app.py
