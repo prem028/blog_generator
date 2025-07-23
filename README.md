@@ -50,6 +50,16 @@ Download llama-2-7b-chat.ggmlv3.q8_0.bin from a trusted source such as Hugging F
 
 🔗 [Example Download - Hugging Face](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin)
 
+Place the file in a models folder:
+
+```
+ai-blog-generator/
+├── models/
+│   └── llama-2-7b-chat.ggmlv3.q8_0.bin
+├── app.py
+├── requirements.txt
+└── README.md
+```
 ---
 
 ## 🏃 How to Use
