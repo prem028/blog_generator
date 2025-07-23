@@ -56,17 +56,17 @@ Launch the app:
 streamlit run app.py
 ```
 
-#### In the App:
-Enter Blog Topic – Type your subject
+### In the App:
+#### 1. Enter Blog Topic – Type your subject
 
-Select Target Audience – e.g., Students, Professionals
+#### 2. Select Target Audience – e.g., Students, Professionals
 
-Choose Tone – e.g., Formal, Friendly
+#### 3. Choose Tone – e.g., Formal, Friendly
 
-Set Word Count – Use the slider
+#### 4. Set Word Count – Use the slider
 
-Select Language – Choose the output language
+#### 5. Select Language – Choose the output language
 
-Click “Generate Blog” – The blog will be generated
+#### 6. Click “Generate Blog” – The blog will be generated
 
-Download Blog – Save it as a .txt file
+#### 7.Download Blog – Save it as a .txt file
